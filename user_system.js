@@ -2,7 +2,7 @@ var navigatorMessageMap = {
 	'mac': 'macos',
   	'iphone': 'macos',
   	'win': 'windows',
-    'lin': 'linux';
+    'lin': 'linux'
 };
 var platform = navigator.platform.toLowerCase();
 for (var key in navigatorMessageMap) {
